@@ -1,0 +1,25 @@
+body{
+	    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.webgl-content{
+	position: relative;
+    width: 100%;
+    height: 100%;
+}
+#gameContainer{
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    background: rgb(35, 31, 32);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
