@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="ie8" lang="en-US"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9" lang="en-US"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)] lang="en-US"><![endif]-->
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name=viewport content="width=device-width, initial-scale=1.0" />
+<!-- feeds & pingback -->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://flappybird.net/xmlrpc.php" />
+<title>Page not found - Flappy Bird</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v13.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Page not found - Flappy Bird" />
+<meta property="og:site_name" content="Flappy Bird" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Page not found - Flappy Bird" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://flappybird.net/#website","url":"https://flappybird.net/","name":"Flappy Bird","inLanguage":"en-US","description":"Play The Official Game On PC &amp; Mobile","potentialAction":{"@type":"SearchAction","target":"https://flappybird.net/?s={search_term_string}","query-input":"required name=search_term_string"}}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Flappy Bird &raquo; Feed" href="https://flappybird.net/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Flappy Bird &raquo; Comments Feed" href="https://flappybird.net/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/flappybird.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.16"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o
