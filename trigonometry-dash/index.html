@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Trigonometry Dash</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+            overflow: hidden;
+		}
+        #canvasArea {
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+        }
+
+        
+	</style>
+    <!-- Libs and GDJS core files : -->
+		<script src="libs/jshashtable.js" crossorigin="anonymous"></script>
+	<script src="logger.js" crossorigin="anonymous"></script>
+	<script src="gd.js" crossorigin="anonymous"></script>
+	<script src="libs/rbush.js" crossorigin="anonymous"></script>
+	<script src="AsyncTasksManager.js" crossorigin="anonymous"></script>
+	<script src="inputmanager.js" crossorigin="anonymous"></script>
+	<script src="jsonmanager.js" crossorigin="anonymous"></script>
+	<script src="Model3DManager.js" crossorigin="anonymous"></script>
+	<script src="ResourceLoader.js" crossorigin="anonymous"></script>
+	<script src="ResourceCache.js" crossorigin="anonymous"></script>
+	<script src="timemanager.js" crossorigin="anonymous"></script>
+	<script src="polygon.js" crossorigin="anonymous"></script>
+	<script src="runtimeobject.js" crossorigin="anonymous"></script>
+	<script src="profiler.js" crossorigin="anonymous"></script>
+	<script src="RuntimeInstanceContainer.js" crossorigin="anonymous"></script>
+	<script src="runtimescene.js" crossorigin="anonymous"></script>
+	<script src="scenestack.js" crossorigin="anonymous"></script>
+	<script src="force.js" crossorigin="anonymous"></script>
+	<script src="RuntimeLayer.js" crossorigin="anonymous"></script>
+	<script src="layer.js" crossorigin="anonymous"></script>
+	<script src="RuntimeCustomObjectLayer.js" crossorigin="anonymous"></script>
+	<script src="timer.js" crossorigin="anonymous"></script>
+	<script src="runtimewatermark.js" crossorigin="anonymous"></script>
+	<script src="runtimegame.js" crossorigin="anonymous"></script>
+	<script src="variable.js" crossorigin="anonymous"></script>
+	<script src="variablescontainer.js" crossorigin="anonymous"></script>
+	<script src="oncetriggers.js" crossorigin="anonymous"></script>
+	<script src="runtimebehavior.js" crossorigin="anonymous"></script>
+	<script src="spriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="affinetransformation.js" crossorigin="anonymous"></script>
+	<script src="CustomRuntimeObjectInstanceContainer.js" crossorigin="anonymous"></script>
+	<script src="CustomRuntimeObject.js" crossorigin="anonymous"></script>
+	<script src="events-tools/commontools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/variabletools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/runtimescenetools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/inputtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/objecttools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/cameratools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/soundtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/storagetools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/stringtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/windowtools.js" crossorigin="anonymous"></script>
+	<script src="events-tools/networktools.js" crossorigin="anonymous"></script>
+	<script src="splash/gd-logo-dark-colored.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/pixi.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/pixi-filters-tools.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/runtimegame-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/runtimescene-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/layer-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/pixi-image-manager.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/pixi-bitmapfont-manager.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/spriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/CustomObjectPixiRenderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/DebuggerPixiRenderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/loadingscreen-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="pixi-renderers/pixi-effects-manager.js" crossorigin="anonymous"></script>
+	<script src="howler-sound-manager/howler.min.js" crossorigin="anonymous"></script>
+	<script src="howler-sound-manager/howler-sound-manager.js" crossorigin="anonymous"></script>
+	<script src="fontfaceobserver-font-manager/fontfaceobserver.js" crossorigin="anonymous"></script>
+	<script src="fontfaceobserver-font-manager/fontfaceobserver-font-manager.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__appendall-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__concatenate-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__fillnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__flatten-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalappendall-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalconcatenate-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalfillnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalflatten-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalhasnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalhasstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalindexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalindexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalinsertat-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globaljoin-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globallastindexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globallastindexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalmax-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalmean-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalmedian-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalmin-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalpop-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalpopnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalpopstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalrandomnumberinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalrandomstringinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalreverse-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalshift-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalshiftnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalshiftstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalshuffle-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalslice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalsort-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalsplice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalsplitstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__globalsum-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__hasnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__hasstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__indexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__indexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__insertat-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__join-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__lastindexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__lastindexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__max-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__mean-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__median-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__min-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectappendall-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectconcatenate-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectfillnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectflatten-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objecthasnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objecthasstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectindexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectindexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectinsertat-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectjoin-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectlastindexof-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectlastindexofstr-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectmax-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectmean-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectmedian-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectmin-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectpop-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectpopnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectpopstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectrandomnumberinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectrandomstringinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectreverse-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectshift-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectshiftnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectshiftstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectshuffle-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectslice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectsort-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectsplice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectsplitstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__objectsum-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__pop-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__popnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__popstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__randomnumberinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__randomstringinarray-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__reverse-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__shift-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__shiftnumber-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__shiftstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__shuffle-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__slice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__sort-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__splice-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__splitstring-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__arraytools__sum-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__clipboard__asynchronouslyreadtextcrossplaform-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__clipboard__readtext-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__clipboard__readtextcrossplaform-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__clipboard__writetext-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__hextoluminance-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__hextorgb-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__hsltorgb-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__hsvtorgb-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__huetorgb-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__nametorgb-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__rgbmean-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__rgbtohex-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__rgbtohsl-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__rgbtohsv-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__colorconversion__rgbtoluminance-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__draggablephysics__draggablephysics.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__flashtransitionpainter__flashtransitionpainter.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__jsonresourceloader__loadjsontoglobal-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__jsonresourceloader__loadjsontoobject-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__jsonresourceloader__loadjsontoscene-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__buttonfsm.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__panelspriteslider.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__slider.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__find-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__getallmatches-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__getallmatchesandgroups-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__getfirstmatchandgroups-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__haspattern-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__replace-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__regex__split-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__spritemasking__mask-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__spritemasking__maskwithshapepainter-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__spritemasking__unmask-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__udtfwtgd__downloadtextfile-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__udtfwtgd__uploadfinished-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__udtfwtgd__uploadtextfile-func.js" crossorigin="anonymous"></script>
+	<script src="Extensions/BitmapText/bitmaptextruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/BitmapText/bitmaptextruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/DraggableBehavior/draggableruntimebehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions/FileSystem/filesystemtools.js" crossorigin="anonymous"></script>
+	<script src="Extensions/PanelSpriteObject/panelspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/PanelSpriteObject/panelspriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/ParticleSystem/particleemitterobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/ParticleSystem/particleemitterobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/ParticleSystem/pixi-particles-pixi-renderer.min.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Physics2Behavior/Box2D_v2.3.1_min.wasm.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Physics2Behavior/physics2runtimebehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Physics2Behavior/physics2tools.js" crossorigin="anonymous"></script>
+	<script src="Extensions/PrimitiveDrawing/pixi-graphics-extras/graphics-extras.min.js" crossorigin="anonymous"></script>
+	<script src="Extensions/PrimitiveDrawing/shapepainterruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/PrimitiveDrawing/shapepainterruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Screenshot/screenshottools.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TextInput/textinputruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TextInput/textinputruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TextObject/textruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TextObject/textruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TiledSpriteObject/tiledspriteruntimeobject-pixi-renderer.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TiledSpriteObject/tiledspriteruntimeobject.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TweenBehavior/TweenManager.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TweenBehavior/tweenruntimebehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions/TweenBehavior/tweentools.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/AnimatableBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/EffectBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/FlippableBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/OpacityBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/ResizableBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/ScalableBehavior.js" crossorigin="anonymous"></script>
+	<script src="object-capabilities/TextContainerBehavior.js" crossorigin="anonymous"></script>
+	<script src="Extensions/3D/HemisphereLight.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/black-and-white-pixi-filter.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/blending-mode-pixi-filter.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/color-replace-pixi-filter.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/outline-pixi-filter.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/pixi-filters/filter-color-replace.js" crossorigin="anonymous"></script>
+	<script src="Extensions/Effects/pixi-filters/filter-outline.js" crossorigin="anonymous"></script>
+	<script src="code0.js" crossorigin="anonymous"></script>
+	<script src="code1.js" crossorigin="anonymous"></script>
+	<script src="code2.js" crossorigin="anonymous"></script>
+	<script src="code3.js" crossorigin="anonymous"></script>
+	<script src="code4.js" crossorigin="anonymous"></script>
+	<script src="code5.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__uuid__generateincrementedintegeruid-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__uuid__generateuuidv4-func.js" crossorigin="anonymous"></script>
+	<script src="code6.js" crossorigin="anonymous"></script>
+	<script src="code7.js" crossorigin="anonymous"></script>
+	<script src="code8.js" crossorigin="anonymous"></script>
+	<script src="data.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+    
+	<script>
+
+    (function() {
+        //Initialization
+        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+
+        //Create a renderer
+        game.getRenderer().createStandardCanvas(document.body);
+
+        //Bind keyboards/mouse/touch events
+        game.getRenderer().bindStandardEvents(game.getInputManager(), window, document);
+
+        //Load all assets and start the game
+        game.loadAllAssets(function() {
+            game.startGameLoop();
+        });
+    })();
+
+	</script>
+</body>
+</html>

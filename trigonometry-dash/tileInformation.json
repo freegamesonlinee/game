@@ -1,0 +1,1548 @@
+[
+   {
+      "name": "Block",
+      "var": "block",
+      "spritesheet": {
+         "x": 0,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Spike",
+      "var": "spike",
+      "spritesheet": {
+         "x": 16,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Short Spike",
+      "var": "shortspike",
+      "spritesheet": {
+         "x": 32,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Small Spike",
+      "var": "smallspike",
+      "spritesheet": {
+         "x": 96,
+         "y": 80,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Thorns",
+      "var": "thorns",
+      "spritesheet": {
+         "x": 48,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Big Saw",
+      "var": "bigsaw",
+	  "spin": 2,
+      "spritesheet": {
+         "x": 112,
+         "y": 64,
+		 "z": 1,
+         "height": 48,
+         "width": 48
+      }
+   },
+   {
+      "name": "Saw",
+      "var": "saw",
+	  "spin": 4,
+      "spritesheet": {
+         "x": 80,
+         "y": 96,
+		 "z": 1,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Small Saw",
+      "var": "smallsaw",
+	  "spin": 5,
+      "spritesheet": {
+         "x": 144,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Slab",
+      "var": "slab",
+      "spritesheet": {
+         "x": 64,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Block Two",
+      "var": "block2",
+      "spritesheet": {
+         "x": 80,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cup Block Two",
+      "var": "cupblock2",
+      "spritesheet": {
+         "x": 0,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pillar Block Two",
+      "var": "pillarblock2",
+      "spritesheet": {
+         "x": 144,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Block Two",
+      "var": "cornerblock2",
+      "spritesheet": {
+         "x": 16,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Edge Block Two",
+      "var": "edgeblock2",
+      "spritesheet": {
+         "x": 32,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Empty Block Two",
+      "var": "emptyblock2",
+      "spritesheet": {
+         "x": 96,
+         "y": 0,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   }, 
+   {
+      "name": "Slope",
+      "var": "slope",
+      "spritesheet": {
+         "x": 112,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Wedge",
+      "var": "wedge",
+      "spritesheet": {
+         "x": 128,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Flipped Wedge",
+      "var": "flippedwedge",
+      "spritesheet": {
+         "x": 0,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Yellow Orb",
+      "var": "yelloworb",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 0,
+         "y": 16,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Yellow Pad",
+      "var": "yellowpad",
+      "spritesheet": {
+         "x": 0,
+         "y": 32,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Blue Orb",
+      "var": "blueorb",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 16,
+         "y": 80,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Blue Pad",
+      "var": "bluepad",
+      "spritesheet": {
+         "x": 0,
+         "y": 80,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Yellow Portal",
+      "var": "yellowportal",
+      "spritesheet": {
+         "x": 16,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Blue Portal",
+      "var": "blueportal",
+      "spritesheet": {
+         "x": 48,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Cube Portal",
+      "var": "cubeportal",
+      "spritesheet": {
+         "x": 80,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Ship Portal",
+      "var": "shipportal",
+      "spritesheet": {
+         "x": 112,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Empty Black Block",
+      "var": "emptyblackblock",
+      "spritesheet": {
+         "x": 144,
+         "y": 16,
+		 "z": 2.2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Push Block",
+      "var": "pushblock",
+      "spritesheet": {
+         "x": 0,
+         "y": 48,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Checkpoint",
+      "var": "checkpoint",
+      "spritesheet": {
+         "x": 32,
+         "y": 64,
+		 "z": 3,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Goal",
+      "var": "goal",
+	  "spin": 1,
+      "spritesheet": {
+         "x": 48,
+         "y": 96,
+		 "z": 3,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Ball Portal",
+      "var": "ballportal",
+      "spritesheet": {
+         "x": 0,
+         "y": 128,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Block Three",
+      "var": "block3",
+      "spritesheet": {
+         "x": 96,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cup Block Three",
+      "var": "cupblock3",
+      "spritesheet": {
+         "x": 32,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pillar Block Three",
+      "var": "pillarblock3",
+      "spritesheet": {
+         "x": 64,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Block Three",
+      "var": "cornerblock3",
+      "spritesheet": {
+         "x": 48,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Edge Block Three",
+      "var": "edgeblock3",
+      "spritesheet": {
+         "x": 80,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Empty Block Three",
+      "var": "emptyblock3",
+      "spritesheet": {
+         "x": 112,
+         "y": 128,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   }, 
+   {
+      "name": "Slope Three",
+      "var": "slope3",
+      "spritesheet": {
+         "x": 32,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Wedge Three",
+      "var": "wedge3",
+      "spritesheet": {
+         "x": 128,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Flipped Wedge Three",
+      "var": "flippedwedge3",
+      "spritesheet": {
+         "x": 128,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Ripples",
+      "var": "ripples",
+      "spritesheet": {
+         "x": 16,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Fake Spike",
+      "var": "fakespike",
+      "spritesheet": {
+         "x": 112,
+         "y": 112,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Fake Short Spike",
+      "var": "fakeshortspike",
+      "spritesheet": {
+         "x": 32,
+         "y": 144,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Small Chain",
+      "var": "smallchain",
+      "spritesheet": {
+         "x": 32,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Chain",
+      "var": "chain",
+      "spritesheet": {
+         "x": 48,
+         "y": 144,
+		 "z": 0,
+         "height": 32,
+         "width": 16
+      }
+   },
+   {
+      "name": "Crystals",
+      "var": "crystals",
+      "spritesheet": {
+         "x": 64,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 48
+      }
+   },
+   {
+      "name": "Green Orb",
+      "var": "greenorb",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 64,
+         "y": 144,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pink Orb",
+      "var": "pinkorb",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 32,
+         "y": 80,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Red Orb",
+      "var": "redorb",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 16,
+         "y": 64,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Black Block",
+      "var": "blackblock",
+      "spritesheet": {
+         "x": 144,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cup Black Block",
+      "var": "cupblackblock",
+      "spritesheet": {
+         "x": 80,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pillar Black Block",
+      "var": "pillarblackblock",
+      "spritesheet": {
+         "x": 112,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Black Block",
+      "var": "cornerblackblock",
+      "spritesheet": {
+         "x": 96,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Edge Black Block",
+      "var": "edgeblackblock",
+      "spritesheet": {
+         "x": 128,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Black Slope",
+      "var": "blackslope",
+      "spritesheet": {
+         "x": 96,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Wedge Three",
+      "var": "blackwedge",
+      "spritesheet": {
+         "x": 144,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Flipped Wedge Three",
+      "var": "flippedblackwedge",
+      "spritesheet": {
+         "x": 144,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Red Pad",
+      "var": "redpad",
+      "spritesheet": {
+         "x": 16,
+         "y": 32,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pink Pad",
+      "var": "pinkpad",
+      "spritesheet": {
+         "x": 16,
+         "y": 48,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ice Block",
+      "var": "iceblock",
+      "spritesheet": {
+         "x": 0,
+         "y": 112,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Background Color Trigger",
+      "var": "bgcolortrigger",
+	  "data": {
+		  "fadeTime": 0.3,
+		  "color1": "60;104;255",
+		  "color2": "32;53;210",
+		  "radius": 3
+	  },
+      "spritesheet": {
+         "x": 16,
+         "y": 128,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Fake Small Spike",
+      "var": "fakesmallspike",
+      "spritesheet": {
+         "x": 80,
+         "y": 80,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ground Color Trigger",
+      "var": "groundcolortrigger",
+	  "data": {
+		  "fadeTime": 0.3,
+		  "color1": "99;162;255",
+		  "color2": "60;104;255",
+		  "radius": 3
+	  },
+      "spritesheet": {
+         "x": 16,
+         "y": 144,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Coin",
+      "var": "coin",
+      "spritesheet": {
+         "x": 32,
+         "y": 16,
+		 "z": 3,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Boulder",
+      "var": "boulder",
+      "spritesheet": {
+         "x": 0,
+         "y": 144,
+		 "z": 1,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Big Flower Spinner",
+      "var": "bigflowerspinner",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 80,
+         "y": 160,
+		 "z": 0,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Small Flower Spinner",
+      "var": "smallflowerspinner",
+	  "spin": 3,
+      "spritesheet": {
+         "x": 48,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Swiggly",
+      "var": "swiggly",
+      "spritesheet": {
+         "x": 96,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Swiggly Corner",
+      "var": "swigglycorner",
+      "spritesheet": {
+         "x": 112,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "UFO Portal",
+      "var": "ufoportal",
+      "spritesheet": {
+         "x": 96,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Tall Push Block",
+      "var": "tallpushblock",
+      "spritesheet": {
+         "x": 64,
+         "y": 112,
+		 "z": 1,
+         "height": 32,
+         "width": 16
+      }
+   },
+   {
+      "name": "Colossal Push Block",
+      "var": "colossalpushblock",
+      "spritesheet": {
+         "x": 80,
+         "y": 112,
+		 "z": 1,
+         "height": 64,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Spike",
+      "var": "ghostspike",
+      "spritesheet": {
+         "x": 32,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Short Spike",
+      "var": "ghostshortspike",
+      "spritesheet": {
+         "x": 48,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Small Spike",
+      "var": "ghostsmallspike",
+      "spritesheet": {
+         "x": 64,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Block",
+      "var": "ghostblock",
+      "spritesheet": {
+         "x": 80,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Slope",
+      "var": "ghostslope",
+      "spritesheet": {
+         "x": 128,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Wedge",
+      "var": "ghostwedge",
+      "spritesheet": {
+         "x": 144,
+         "y": 80,
+		 "z": 1,
+         "height": 32,
+         "width": 16
+      }
+   },
+   {
+      "name": "Flipped Ghost Wedge",
+      "var": "flippedghostwedge",
+      "spritesheet": {
+         "x": 144,
+         "y": 96,
+		 "z": 1,
+         "height": 32,
+         "width": 16
+      }
+   },
+   {
+      "name": "Ghost Slab",
+      "var": "ghostslab",
+      "spritesheet": {
+         "x": 64,
+         "y": 16,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Big Ghost Saw",
+      "var": "ghostbigsaw",
+	  "spin": 2,
+      "spritesheet": {
+         "x": 48,
+         "y": 48,
+		 "z": 1,
+         "height": 48,
+         "width": 48
+      }
+   },
+   {
+      "name": "Ghost Saw",
+      "var": "ghostsaw",
+	  "spin": 4,
+      "spritesheet": {
+         "x": 64,
+         "y": 48,
+		 "z": 1,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Small Ghost Saw",
+      "var": "ghostsmallsaw",
+	  "spin": 5,
+      "spritesheet": {
+         "x": 80,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Text",
+      "var": "text",
+	  "data": {
+		  "color": "255;255;255",
+		  "content": "Sample Text",
+		  "outline": 0,
+		  "width": 0
+	  },
+      "spritesheet": {
+         "x": 48,
+         "y": 80,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Thorns",
+      "var": "cornerthorns",
+      "spritesheet": {
+         "x": 64,
+         "y": 80,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Ripples",
+      "var": "cornerripples",
+      "spritesheet": {
+         "x": 64,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Old UFO Portal",
+      "var": "oldufoportal",
+      "spritesheet": {
+         "x": 0,
+         "y": 0,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Wave Portal",
+      "var": "waveportal",
+      "spritesheet": {
+         "x": 128,
+         "y": 16,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Brick Block",
+      "var": "brickblock",
+      "spritesheet": {
+         "x": 48,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cup Brick Block",
+      "var": "cupbrickblock",
+      "spritesheet": {
+         "x": 64,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pillar Brick Block",
+      "var": "pillarbrickblock",
+      "spritesheet": {
+         "x": 80,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Brick Block",
+      "var": "cornerbrickblock",
+      "spritesheet": {
+         "x": 96,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Edge Brick Block",
+      "var": "edgebrickblock",
+      "spritesheet": {
+         "x": 96,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Empty Brick Block",
+      "var": "emptybrickblock",
+      "spritesheet": {
+         "x": 32,
+         "y": 48,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   }, 
+   {
+      "name": "Brick Slope",
+      "var": "brickslope",
+      "spritesheet": {
+         "x": 96,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Brick Wedge",
+      "var": "brickwedge",
+      "spritesheet": {
+         "x": 112,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Flipped Brick Wedge",
+      "var": "flippedbrickwedge",
+      "spritesheet": {
+         "x": 112,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Star",
+      "var": "star",
+      "spritesheet": {
+         "x": 112,
+         "y": 96,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Triangle",
+      "var": "triangle",
+      "spritesheet": {
+         "x": 112,
+         "y": 80,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Icon",
+      "var": "iconpush",
+	  "data": {
+		  "icon": 3,
+		  "color1": "249;255;104",
+		  "color2": "60;255;242",
+		  "glow": 0,
+		  "glowcolor": "60;255;242"
+	  },
+      "spritesheet": {
+         "x": 128,
+         "y": 80,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Big Gear",
+      "var": "biggear",
+	  "spin": 2,
+      "spritesheet": {
+         "x": 128,
+         "y": 32,
+		 "z": 1,
+         "height": 48,
+         "width": 48
+      }
+   },
+   {
+      "name": "Gear",
+      "var": "gear",
+	  "spin": 4,
+      "spritesheet": {
+         "x": 128,
+         "y": 48,
+		 "z": 1,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Small Gear",
+      "var": "smallgear",
+	  "spin": 5,
+      "spritesheet": {
+         "x": 128,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Question Mark",
+      "var": "questionmark",
+      "spritesheet": {
+         "x": 96,
+         "y": 32,
+		 "z": 0,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Arrow",
+      "var": "arrow",
+      "spritesheet": {
+         "x": 144,
+         "y": 0,
+		 "z": 0,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Exclamation Mark",
+      "var": "exclamationmark",
+      "spritesheet": {
+         "x": 144,
+         "y": 64,
+		 "z": 0,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Break Block",
+      "var": "breakblock",
+      "spritesheet": {
+         "x": 0,
+         "y": 160,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "1x Speed Portal",
+      "var": "speedportal1",
+      "spritesheet": {
+         "x": 16,
+         "y": 160,
+		 "z": 2,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "2x Speed Portal",
+      "var": "speedportal2",
+      "spritesheet": {
+         "x": 128,
+         "y": 160,
+		 "z": 2,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "3x Speed Portal",
+      "var": "speedportal3",
+      "spritesheet": {
+         "x": 144,
+         "y": 160,
+		 "z": 2,
+         "height": 32,
+         "width": 48
+      }
+   },
+   {
+      "name": "Small Boulder",
+      "var": "smallboulder",
+      "spritesheet": {
+         "x": 160,
+         "y": 0,
+		 "z": 1,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Spike Boulder",
+      "var": "spikeboulder",
+      "spritesheet": {
+         "x": 160,
+         "y": 16,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Small Spike Boulder",
+      "var": "smallspikeboulder",
+      "spritesheet": {
+         "x": 160,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Playerpass Block",
+      "var": "playerpass",
+      "spritesheet": {
+         "x": 160,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Physicspass Block",
+      "var": "physicspass",
+      "spritesheet": {
+         "x": 160,
+         "y": 64,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "On Off Switch",
+      "var": "onoffswitch",
+	  "data": {
+		  "physicsCanPress": 0
+	  },
+      "spritesheet": {
+         "x": 160,
+         "y": 112,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Off Block",
+      "var": "offblock",
+      "spritesheet": {
+         "x": 160,
+         "y": 80,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "On Block",
+      "var": "onblock",
+      "spritesheet": {
+         "x": 160,
+         "y": 96,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cross",
+      "var": "cross",
+      "spritesheet": {
+         "x": 160,
+         "y": 128,
+		 "z": 0,
+         "height": 32,
+         "width": 32
+      }
+   },
+   {
+      "name": "Sharpy",
+      "var": "sharpy",
+      "spritesheet": {
+         "x": 160,
+         "y": 144,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Sharpy Corner",
+      "var": "sharpycorner",
+      "spritesheet": {
+         "x": 160,
+         "y": 160,
+		 "z": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Off Spike",
+      "var": "offspike",
+      "spritesheet": {
+         "x": 176,
+         "y": 16,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "On Spike",
+      "var": "onspike",
+      "spritesheet": {
+         "x": 176,
+         "y": 0,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Force Trigger",
+      "var": "forcetrigger",
+	  "data": {
+		  "force": 100,
+		  "angle": 0,
+		  "radius": 3
+	  },
+      "spritesheet": {
+         "x": 176,
+         "y": 32,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Metal Block",
+      "var": "metalblock",
+      "spritesheet": {
+         "x": 176,
+         "y": 48,
+		 "z": 1,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "phant",
+      "var": "phant",
+      "spritesheet": {
+         "x": 0,
+         "y": 0,
+		 "z": 1,
+         "height": 80,
+         "width": 112
+      }
+   },
+   {
+      "name": "Green Portal",
+      "var": "greenportal",
+      "spritesheet": {
+         "x": 176,
+         "y": 64,
+		 "z": 2,
+         "height": 48,
+         "width": 32
+      }
+   },
+   {
+      "name": "Line Block",
+      "var": "lineblock",
+      "spritesheet": {
+         "x": 80,
+         "y": 32,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Cup Line Block",
+      "var": "cuplineblock",
+      "spritesheet": {
+         "x": 176,
+         "y": 96,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Pillar Line Block",
+      "var": "pillarlineblock",
+      "spritesheet": {
+         "x": 176,
+         "y": 112,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Line Block",
+      "var": "cornerlineblock",
+      "spritesheet": {
+         "x": 176,
+         "y": 128,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Edge Line Block",
+      "var": "edgelineblock",
+      "spritesheet": {
+         "x": 176,
+         "y": 144,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Corner Dot",
+      "var": "cornerdot",
+      "spritesheet": {
+         "x": 176,
+         "y": 160,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Line Slope",
+      "var": "lineslope",
+      "spritesheet": {
+         "x": 176,
+         "y": 80,
+		 "z": 2,
+         "height": 16,
+         "width": 16
+      }
+   },
+   {
+      "name": "Line Wedge",
+      "var": "linewedge",
+      "spritesheet": {
+         "x": 192,
+         "y": 0,
+		 "z": 2,
+         "height": 16,
+         "width": 32
+      }
+   },
+   {
+      "name": "Flipped Line Wedge",
+      "var": "flippedlinewedge",
+      "spritesheet": {
+         "x": 192,
+         "y": 16,
+		 "z": 2,
+         "height": 16,
+         "width": 32
+      }
+   }
+]

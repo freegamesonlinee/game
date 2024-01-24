@@ -1,0 +1,162 @@
+{
+   "na":{
+      "name": "Unrated",
+	  "emoji": "<:tdUnrated:1194847656061718579>",
+      "spritesheet": {
+         "x": 0,
+         "y": 48,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "auto":{
+      "name": "Auto",
+	  "emoji": "<:tdAuto:1194847653285081108>",
+      "spritesheet": {
+         "x": 0,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "easy":{
+      "name": "Easy",
+	  "emoji": "<:tdEasy:1163254404657451049>",
+      "spritesheet": {
+         "x": 16,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "normal":{
+      "name": "Normal",
+	  "emoji": "<:tdNormal:1163254435519139923>",
+      "spritesheet": {
+         "x": 32,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "medium":{
+      "name": "Medium",
+	  "emoji": "<:tdMedium:1191489657532317818>",
+      "spritesheet": {
+         "x": 48,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "hard":{
+      "name": "Hard",
+	  "emoji": "<:tdHard:1163254514476920893>",
+      "spritesheet": {
+         "x": 64,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "harder":{
+      "name": "Harder",
+	  "emoji": "<:tdHarder:1163254547901325443>",
+      "spritesheet": {
+         "x": 80,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "veryhard":{
+      "name": "Very Hard",
+	  "emoji": "<:tdVeryHard:1163254576879779880>",
+      "spritesheet": {
+         "x": 96,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "tough":{
+      "name": "Tough",
+	  "emoji": "<:tdTough:1163254620282421258>",
+      "spritesheet": {
+         "x": 112,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "insane":{
+      "name": "Insane",
+	  "emoji": "<:tdInsane:1194847657324191845>",
+      "spritesheet": {
+         "x": 128,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "extreme":{
+      "name": "Extreme",
+	  "emoji": "<:tdExtreme:1194847654186852496>",
+      "spritesheet": {
+         "x": 144,
+         "y": 0,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "easydemon":{
+      "name": "Easy Demon",
+	  "emoji": "<:tdDemonEasy:1192674773952626728>",
+      "spritesheet": {
+         "x": 0,
+         "y": 16,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "mediumdemon":{
+      "name": "Medium Demon",
+	  "emoji": "<:tdDemonMedium:1191490584054091856>",
+      "spritesheet": {
+         "x": 16,
+         "y": 16,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "demon":{
+      "name": "Hard Demon",
+	  "emoji": "<:tdDemon:1191490585446580224>",
+      "spritesheet": {
+         "x": 32,
+         "y": 16,
+         "height": 16,
+         "width": 16
+      }
+   },
+   "insanedemon":{
+      "name": "Insane Demon",
+	  "emoji": "<:tdDemonInsane:1191490587329826946>",
+      "spritesheet": {
+         "x": 48,
+         "y": 16,
+         "height": 16,
+         "width": 18
+      }
+   },
+   "extremedemon":{
+      "name": "Extreme Demon",
+	  "emoji": "<:tdDemonExtreme:1192674854609113148>",
+      "spritesheet": {
+         "x": 66,
+         "y": 16,
+         "height": 16,
+         "width": 18
+      }
+   }
+}
