@@ -1,0 +1,1038 @@
+{
+	
+"Perks" : {
+
+	"Firerate" : [["Increase firerate of all units by",
+	"Augmente la vitesse de tir des unités de",
+	"Aumentar la cadencia de fuego de todas las unidades en",
+	"Aumentar a taxa de fogo de todas as unidades e",
+	"Meningkatkan daya tembak semua unit sebesar",
+	"Tüm birimlerin ateş hızını şu kadar artırın"],[1,1.2,1.4,1.6,1.8,2]],
+	
+	"Damage" : [["Increase bullet damage of all units by",
+	"Augmente les dégâts des balles des unités de",
+	"Aumenta el daño de bala de todas las unidades en",
+	"Aumenta o dano de bala de todas as unidades em",
+	"Meningkatkan kerusakan peluru dari semua unit sebesar",
+	"Tüm birimlerin mermi hasarını şu kadar artırın"],[1,1.2,1.4,1.6,1.8,2]],
+	
+	"Health" : [["Increase max health of your hero by",
+	"Augmente le maximum de vie du héro de",
+	"Aumenta la salud máxima de tu héroe en",
+	"Aumentar a saúde máxima do seu herói em",
+	"Tingkatkan kesehatan maksimal pahlawan Anda sebesar",
+	"Kahramanınızın maksimum sağlığını şu kadar artırın"],[1,1.2,1.4,1.6,1.8,2]],
+	
+	"Critical" : [["Set critrate of all units to",
+	"Passe le taux de critique des unités à",
+	"Establece el índice de críticos de todas las unidades en",
+	"Definir a taxa crítica de todas as unidades para",
+	"Atur critrate semua unit menjadi",
+	"Tüm birimlerin kriter oranını"],[1,1.1,1.2,1.3,1.4,1.5]],
+	
+	"Headshot" : [["Set headshot rate of all units to",
+	"Passe le taux de tir dans la tête des unités à",
+	"Establece el índice de disparos a la cabeza de todas las unidades en",
+	"Definir a taxa de tiro na cabeça de todas as unidades para",
+	"Setel tingkat tembakan kepala semua unit ke",
+	"Tüm birimlerin kafadan vuruş oranını"],[1,1.05,1.1,1.15,1.2,1.25]],
+	
+	"Multishot" : [["Set double firing rate of all units to",
+	"Passe le taux de double tir des unités à",
+	"Ajustar la cadencia de tiro doble de todas las unidades a",
+	"Definir a taxa de disparo dupla de todas as unidades para",
+	"Atur laju penembakan ganda dari semua unit ke",
+	"Tüm birimlerin çift ateşleme oranını"],[1,1.1,1.2,1.3,1.4,1.5]],
+	
+	"Piercing" : [["Set bullet piercing rate of all units to",
+	"Passe le taux de pénétration des balles des unités à",
+	"Establecer el índice de perforación de todas las unidades en",
+	"Definir a taxa de perfuração de balas de todas as unidades para",
+	"Setel tingkat penembusan peluru semua unit menjadi",
+	"Tüm birimlerin mermi delme oranını"],[1,1.1,1.2,1.3,1.4,1.5]],
+	
+	"Bounce" : [["Set bullet bounce rate of all units to",
+	"Passe le taux de rebond des balles des unités à",
+	"Establece la tasa de rebote de todas las unidades en",
+	"Definir a taxa de projeção de balas de todas as unidades para",
+	"Setel tingkat pantulan peluru semua unit menjadi",
+	"Tüm birimlerin mermi sıçrama oranını"],[1,1.1,1.2,1.3,1.4,1.5]],
+	
+	"Electric" : [["Set bullet electricity rate of all units to",
+	"Passe le taux d'électricité des balles des unités à",
+	"Fijar la tarifa eléctrica bala de todas las unidades en",
+	"Definir a taxa de eletricidade do boletim de todas as unidades para",
+	"Tetapkan tarif listrik peluru dari semua unit ke",
+	"Tüm birimlerin mermi elektrik oranını şu şekilde ayarlayın"],[1,1.05,1.1,1.15,1.2,1.25]],
+	
+	"Gem" : [["Set gem droprate to",
+	"Passe le taux de récolte des gemmes à",
+	"Establece el droprate de gemas a",
+	"Definir a taxa de queda de gemas para",
+	"Setel tingkat penurunan permata ke",
+	"Gem damlalık oranını"],[1.5,1.6,1.7,1.8,1.9,2]],
+	
+	"Regen" : [["Set regen from max health of your hero to",
+	"Passe la régénération de vie du héro à",
+	"Establecer la regeneración de la salud máxima de tu héroe en",
+	"Definir regeneração da vida máxima do seu herói para",
+	"Setel regenerasi dari kesehatan maksimal pahlawan Anda ke",
+	"Kahramanınızın maksimum sağlığından yenilenmeyi"],[1,1.01,1.015,1.02,1.025,1.03]],
+	
+	"Lifesteal" : [["Set lifesteal of your hero to",
+	"Passe le vol de vie du héro à",
+	"Establece la recuperación de vida de tu héroe en",
+	"Definir o roubo de vida do seu herói para",
+	"Setel pencurian nyawa pahlawan Anda ke",
+	"Kahramanınızın yaşam gücünü"],[1,1.02,1.04,1.06,1.08,1.1]]
+
+},
+
+
+"Lootbox" : {
+
+	"Antidote" : ["Cleanse your hero from zombie poison",
+	"Soigne le héro des effets du poison",
+	"Limpia a tu héroe del veneno zombi",
+	"Limpa o teu herói do veneno dos zombies",
+	"Membersihkan pahlawan Anda dari racun zombie",
+	"Kahramanınızı zombi zehrinden arındırın"],
+	
+	"Potion" : ["Heal your hero by 50% of its max health",
+	"Soigne le héro de 50% de son maximum de points de vie",
+	"Cura a tu héroe un 50% de su vida máxima",
+	"Cura o teu herói em 50% da sua saúde máxima",
+	"Menyembuhkan pahlawan Anda sebesar 50% dari kesehatan maksimalnya",
+	"Kahramanınızı maksimum sağlığının %50'si kadar iyileştirin"],
+	
+	"Immunity" : ["Give invincibility to your hero for 3 seconds",
+	"Octroie l'invincibilité au héro pendant 3 secondes",
+	"Da invencibilidad a tu héroe durante 3 segundos",
+	"Dá invencibilidade ao teu herói durante 3 segundos",
+	"Memberikan invincibility pada hero kamu selama 3 detik",
+	"Kahramanınıza 3 saniye boyunca yenilmezlik kazandırır"],
+	
+	"Rage" : ["Increase both firerate and damage of units by 50% for this wave",
+	"Augmente la vitesse de tir et les dégâts des unités de 50% pendant cette vague",
+	"Aumenta la cadencia de fuego y el daño de las unidades en un 50% durante esta oleada",
+	"Aumenta a taxa de fogo e o dano das unidades em 50% para esta onda",
+	"Meningkatkan firerate dan damage unit sebesar 50% untuk gelombang ini",
+	"Bu dalga için birimlerin hem ateş hızını hem de hasarını %50 artırın"]
+
+},
+
+
+"PerksPrice" : {
+
+	"Firerate" : [10,30,60,100,150,210],
+	"Damage" : [10,30,60,100,150,210],
+	"Critical" : [10,30,60,100,150,210],
+	"Headshot" : [10,30,60,100,150,210],
+	"Multishot" : [10,30,60,100,150,210],
+	"Piercing" : [10,30,60,100,150,210],
+	"Bounce" : [10,30,60,100,150,210],
+	"Electric" : [10,30,60,100,150,210],
+	"Health" : [10,30,60,100,150,210],
+	"Regen" : [10,30,60,100,150,210],
+	"Lifesteal" : [10,30,60,100,150,210],
+	"Gem" : [10,30,60,100,150,210]
+
+},
+
+
+"PerksList" : ["Firerate","Damage","Critical","Headshot","Multishot","Piercing","Bounce","Electric","Health","Regen","Lifesteal","Gem"],
+
+
+"LootboxList" : ["Antidote","Potion","Immunity","Rage"],
+
+
+"Shop" : {
+
+	"Barrel" : 
+	["Drop explosive barrels at the start of each wave. They attract zombies and burn them when exploding",
+	"Pose des barrils explosifs au début de chaque vague. Ils attirent les zombies et les brûlent en explosant",
+	"Deja caer barriles explosivos al principio de cada oleada. Atraen a los zombis y los queman al explotar",
+	"Largar barris explosivos no início de cada vaga. Atraem zombies e queimam-nos quando explodem",
+	"Jatuhkan tong peledak di awal setiap gelombang. Mereka menarik zombie dan membakar mereka saat meledak",
+	"Her dalganın başına patlayıcı variller bırakın. Bunlar zombileri çeker ve patladıklarında onları yakar"],
+	
+	"Barrier" : 
+	["Drop wood barriers at the start of each wave that attract zombies",
+	"Pose des barrières au début de chaque vague qui attirent les zombies",
+	"Suelta barreras de madera al principio de cada oleada que atraen a los zombis",
+	"Largar barreiras de madeira no início de cada vaga que atraem os zombies",
+	"Jatuhkan penghalang kayu di awal setiap gelombang yang menarik zombie",
+	"Her dalganın başına zombileri çeken ahşap bariyerler bırakın"],
+	
+	"ArcheryTarget" : 
+	["Drop arrow targets at the start of each wave that attract zombies",
+	"Pose des cibles au début de chaque vague qui attirent les zombies",
+	"Coloca dianas con flechas al principio de cada oleada para atraer a los zombis",
+	"Coloque alvos com setas no início de cada onda para atrair zombies",
+	"Tempatkan target panah di awal setiap gelombang untuk menarik zombie",
+	"Zombileri çekmek için her dalganın başına ok hedefleri yerleştirin"],
+	
+	"Tesla" : 
+	["Drop electric tesla coils at the start of each wave to attract zombies",
+	"Pose des bobines tesla électriques au début de chaque vague qui attirent les zombies",
+	"Suelta bobinas tesla eléctricas al principio de cada ola para atraer a los zombis",
+	"Largar bobinas de tesla eléctricas no início de cada onda para atrair zombies",
+	"Jatuhkan gulungan tesla listrik di awal setiap gelombang untuk menarik zombie",
+	"Zombileri çekmek için her dalganın başına elektrikli tesla bobinleri bırakın"],
+	
+	"TotemFire" : 
+	["Place fire totems that shoot at the nearest zombies",
+	"Place des totems de feu qui tirent sur les zombies les plus proches",
+	"Coloca tótems de fuego que disparen a los zombis más cercanos",
+	"Colocar totens de fogo que disparam contra os zombies mais próximos",
+	"Tempatkan totem api yang menembak zombie terdekat",
+	"En yakındaki zombilere ateş eden ateş totemleri yerleştirin"],
+	
+	"TotemHeal" : 
+	["Place healing totems that send healing orbs to the hero",
+	"Place des totems de soin qui envoient des orbes de guérison pour le héro",
+	"Coloca tótems curativos que envíen orbes curativos al héroe",
+	"Colocar totens de cura que enviam orbes de cura para o herói",
+	"Tempatkan totem penyembuh yang mengirimkan bola penyembuh ke pahlawan",
+	"Kahramana şifa küreleri gönderen şifa totemleri yerleştirin"],
+	
+	"TotemBuff" : 
+	["Place buff totems that summon zones increasing hero's attack and movement speed",
+	"Place des totems de buff qui invoquent des zones augmentant la vitesse de tir et de déplacement du héro",
+	"Coloca tótems de mejora que invoquen zonas que aumenten la velocidad de ataque y movimiento del héroe",
+	"Colocar totens de buff que invocam zonas que aumentam o ataque e a velocidade de movimento do herói",
+	"Tempatkan totem buff yang memanggil zona yang meningkatkan serangan dan kecepatan gerakan pahlawan",
+	"Kahramanın saldırı ve hareket hızını artıran bölgeleri çağıran buff totemleri yerleştirin"],
+	
+	"Beartrap" : 
+	["Drop bear traps at the start of each wave to immobilize zombies",
+	"Pose des pièges à ours au début de chaque vague qui immobilisent les zombies",
+	"Suelta trampas para osos al principio de cada oleada para inmovilizar a los zombis",
+	"Largar armadilhas de urso no início de cada vaga para imobilizar os zombies",
+	"Jatuhkan jebakan beruang di awal setiap gelombang untuk melumpuhkan zombie",
+	"Zombileri hareketsiz hale getirmek için her dalganın başında ayı tuzakları bırakın"],
+	
+	"Campfire" : 
+	["Place campfires that heal the hero in an area and burn zombies that step on them",
+	"Place des feux de camp qui soignent le héros dans une zone et brûlent les zombies qui marchent dessus",
+	"Coloca hogueras que curen al héroe en una zona y quemen a los zombis que las pisen",
+	"Colocar fogueiras que curam o herói numa área e queimam os zombies que as pisam",
+	"Tempatkan api unggun yang menyembuhkan pahlawan di suatu area dan bakar zombie yang menginjaknya",
+	"Kahramanı iyileştiren kamp ateşlerini bir alana yerleştirin ve üzerlerine basan zombileri yakın"],
+	
+	"Turret" : 
+	["Place untargetable turrets that fires at the nearest zombies",
+	"Place des tourelles inciblables qui tirent automatiquement sur les zombies",
+	"Coloca torretas que disparen a los zombis más cercanos",
+	"Colocar torres inatingíveis que disparam contra os zombies mais próximos",
+	"Tempatkan menara yang tidak dapat ditargetkan yang menembak zombie terdekat",
+	"En yakındaki zombilere ateş eden hedeflenemeyen taretler yerleştirin"],
+	
+	"Drone" : 
+	["Call in untargetable drones that chase zombies and shoot them",
+	"Appelle des drones inciblables qui chassent les zombies et leur tirent dessus",
+	"Llama a drones inalcanzables que persigan a los zombis y les disparen",
+	"Chamar drones inatingíveis que perseguem os zombies e disparam sobre eles",
+	"Panggil drone tak bertarget yang mengejar zombie dan menembaknya",
+	"Zombileri kovalayan ve onları vuran hedef alınamaz dronları çağırın"],
+	
+	"ScrollFire" : 
+	["Summon untargetable fire scrolls that chase zombies and burn them",
+	"Invoque des parchemins de feu inciblables qui chassent et brûlent les zombies",
+	"Invoca pergaminos de fuego inalcanzables que persigan a los zombis y los quemen",
+	"Invocar pergaminhos de fogo inatingíveis que perseguem os zombies e os queimam",
+	"Panggil gulungan api yang tidak dapat ditargetkan yang mengejar zombie dan membakar mereka",
+	"Zombileri kovalayan ve onları yakan hedeflenemez ateş parşömenleri çağırın"],
+	
+	"ScrollThunder" : 
+	["Summon untargetable thunder scrolls that chase zombies and stun them",
+	"Invoque des parchemins de foudre inciblables qui chassent et étourdissent les zombies",
+	"Invoca pergaminos de trueno inalcanzables que persiguen a los zombis y los aturden",
+	"Invocar pergaminhos de trovão inatingíveis que perseguem os zombies e os atordoam",
+	"Panggil gulungan guntur yang tidak dapat ditargetkan untuk mengejar zombie dan melumpuhkan mereka",
+	"Zombileri kovalayan ve onları sersemleten hedeflenemez gök gürültüsü parşömenleri çağırın"],
+	
+	"Portal" : 
+	["Create a magical portal that aspirates the nearest zombies",
+	"Crée un portail magique qui aspire les zombies les plus proches",
+	"Crea un portal mágico que succione a los zombis más cercanos",
+	"Criar um portal mágico que suga os zombies mais próximos",
+	"Buat portal ajaib yang menyedot zombie terdekat",
+	"En yakındaki zombileri içine çeken büyülü bir portal oluşturun"],
+	
+	"HuntingDog" : 
+	["Call in untargetable hunting dogs that chase zombies and bit them",
+	"Appelle des chiens de chasse inciblables qui courent après les zombies et les mordent",
+	"Llama a un perro de caza inalcanzable que persiga a los zombis y los muerda",
+	"Chamar um cão de caça inatingível que persegue os zombies e os morde",
+	"Panggil anjing pemburu yang tidak dapat ditargetkan untuk mengejar zombie dan menggigit mereka",
+	"Zombileri kovalayan ve onları ısıran hedef alınamaz av köpeği çağırın"],
+	
+	"Grenade" : 
+	["Throw explosive grenades at the nearest zombies every X seconds",
+	"Lance des grenades sur les zombies les plus proches du héro toutes les X secondes",
+	"Lanza granadas explosivas a los zombis más cercanos cada X segundos",
+	"Atirar granadas explosivas aos zombies mais próximos a cada X segundos",
+	"Melempar granat peledak ke zombie terdekat setiap X detik",
+	"Her X saniyede bir en yakın zombilere patlayıcı el bombaları fırlatın"],
+	
+	"Molotov" : ["Throw burning molotovs at the nearest zombies every X seconds",
+	"Lance des molotovs sur les zombies les plus proches du héro toutes les X secondes",
+	"Lanza molotovs ardientes a los zombis más cercanos cada X segundos",
+	"Atirar molotovs em chamas nos zombies mais próximos a cada X segundos",
+	"Melempar molotov yang terbakar ke zombie terdekat setiap X detik",
+	"Her X saniyede bir en yakın zombilere yanan molotoflar atın"],
+	
+	"Neutron" : ["Throw stun grenades at the nearest zombies every X seconds",
+	"Lance des grenades étourdissantes sur les zombies les plus proches du héro toutes les X secondes",
+	"Lanza granadas aturdidoras a los zombis más cercanos cada X segundos",
+	"Atira granadas de atordoamento aos zombies mais próximos a cada X segundos",
+	"Lempar granat setrum ke zombie terdekat setiap X detik",
+	"Her X saniyede bir en yakın zombilere sersemletici el bombası atın"],
+	
+	"Missile" : ["Shoot missiles randomly on zombies every X seconds",
+	"Tire des missiles de façon aléatoire sur les zombies toutes les X secondes",
+	"Dispara misiles aleatoriamente a los zombis cada X segundos",
+	"Disparar mísseis aleatoriamente sobre os zombies a cada X segundos",
+	"Menembakkan rudal secara acak pada zombie setiap X detik",
+	"Her X saniyede bir zombilere rastgele füze fırlatın"],
+	
+	"Frost" : 
+	["Create a frost around the hero that freezes the nearest zombies every X seconds",
+	"Crée un givre autour du héro qui gèle les zombies les plus proches toutes les X secondes",
+	"Crea una escarcha alrededor del héroe que congela a los zombis más cercanos cada X segundos",
+	"Cria um gelo à volta do herói que congela os zombies mais próximos a cada X segundos",
+	"Buat embun beku di sekitar pahlawan yang membekukan zombie terdekat setiap X detik",
+	"Kahramanın etrafında her X saniyede bir en yakındaki zombileri donduran bir don yaratın"],
+	
+	"Exhaust" : 
+	["Create evil spirits that weaken the nearest zombies every X seconds",
+	"Crée des esprits malfaisants qui affaiblissent les zombies les plus proches toutes les X secondes",
+	"Crea espíritus malignos que debilitan a los zombis más cercanos cada X segundos",
+	"Criar espíritos malignos que enfraquecem os zombies mais próximos a cada X segundos",
+	"Menciptakan roh jahat yang melemahkan zombie terdekat setiap X detik",
+	"Her X saniyede bir en yakındaki zombileri zayıflatan kötü ruhlar yaratın"],
+	
+	"Burn" : 
+	["Create a fire explosion when burned zombies die, burning other zombies around them",
+	"Crée une explosion de feu à la mort des zombies brûlés qui incendie les autres zombies aux alentours",
+	"Crea una explosión de fuego cuando mueren zombis quemados, quemando a otros zombis a su alrededor",
+	"Cria uma explosão de fogo quando os zombies queimados morrem, queimando outros zombies à sua volta",
+	"Buat ledakan api saat zombie yang terbakar mati, membakar zombie lain di sekitar mereka",
+	"Yanmış zombiler öldüğünde, etraflarındaki diğer zombileri yakan bir yangın patlaması yaratın"],
+	
+	"Mine" : 
+	["Lay explosive mines on the ground at the start of each wave",
+	"Pose des mines explosives au sol au début de chaque vague",
+	"Coloca minas explosivas en el suelo al comienzo de cada oleada",
+	"Colocar minas explosivas no chão no início de cada vaga",
+	"Letakkan ranjau peledak di tanah di awal setiap gelombang",
+	"Her dalganın başlangıcında yere patlayıcı mayınlar döşeyin"]
+
+},
+
+
+"ShopList" : {
+
+	"Kamikaze" : ["Barrier","Mine","Grenade","Missile"],
+	"Hunter" : ["ArcheryTarget","Beartrap","Campfire","HuntingDog"],
+	"Engineer" : ["Tesla","Neutron","Turret","Drone"],
+	"Pyromaniac" : ["Barrel","Burn","Molotov","Missile"],
+	"Shaman" : ["Exhaust","TotemFire","TotemHeal","TotemBuff"],
+	"Mage" : ["Portal","Frost","ScrollFire","ScrollThunder"],
+	"Shotgun" : ["Barrier","Mine","Grenade","Missile"],
+	"Rpg" : ["Barrier","Mine","Grenade","Missile"],
+	"Necromancer" : [""],
+	"Ninja" : [""]
+
+},
+
+
+"ShopListRewarded" : ["Unit"],
+
+
+"ShopRegular" : ["Barrel","Barrier","ArcheryTarget","Tesla","Beartrap","Mine"],
+
+
+"ShopPassive" : ["Grenade","Molotov","Neutron","Missile","Frost","Exhaust"],
+
+
+"ShopItem" : {
+
+	"Barrel" : {
+		"Number" : [0,4,8,12,16,20],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8],
+		"HP" : [0,20,25,30,35,40]
+		},
+		
+	"Barrier" : {
+		"Number" : [0,5,10,15,20,25],
+		"HP" : [0,30,35,40,45,50]
+		},
+		
+	"ArcheryTarget" : {
+		"Number" : [0,5,10,15,20,25],
+		"HP" : [0,30,35,40,45,50]
+		},
+		
+	"Tesla" : {
+		"Number" : [0,4,8,12,16,20],
+		"HP" : [0,40,45,50,55,60]
+		},
+		
+	"Beartrap" : {
+		"Number" : [0,20,30,40,50,60],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8]
+		},
+		
+	"Campfire" : {
+		"Number" : [0,1,2,3,4,5],
+		"Heal(%)" : [0,1,1.5,2,2.5,3]
+		},
+	
+	"Mine" : {
+		"Number" : [0,20,30,40,50,60],
+		"Damage" : [0,0.6,0.7,0.8,0.9,1]
+		},
+		
+	"Drone" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.2,0.25,0.3,0.35,0.4],
+		"Firerate" : [0,0.3,0.25,0.2,0.15,0.1],
+		"Range" : [0,50,60,70,80,100]
+		},
+		
+	"ScrollFire" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8],
+		"Firerate" : [0,1,0.9,0.8,0.7,0.5],
+		"Range" : [0,50,60,70,80,100]
+		},
+		
+	"ScrollThunder" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8],
+		"Firerate" : [0,1,0.9,0.8,0.7,0.5],
+		"Range" : [0,50,60,70,80,100]
+		},
+		
+	"Portal" : {
+		"Number" : [0,1,2,3,4,5],
+		"Range" : [0,80,90,100,110,120],
+		"Frequency" : [0,3,2.5,2,1.5,1]
+		},
+		
+	"Turret" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.4,0.45,0.5,0.55,0.6],
+		"Firerate" : [0,0.5,0.45,0.4,0.35,0.3],
+		"Range" : [0,100,110,120,130,150]
+		},
+		
+	"HuntingDog" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.6,0.65,0.7,0.75,0.8],
+		"Hitrate" : [0,1,0.9,0.8,0.7,0.5]
+		},
+		
+	"TotemFire" : {
+		"Number" : [0,1,2,3,4,5],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8],
+		"Firerate" : [0,1,0.9,0.8,0.7,0.5],
+		"Range" : [0,100,110,120,130,150]
+		},
+		
+	"TotemHeal" : {
+		"Number" : [0,1,2,3,4,5],
+		"Heal(%)" : [0,1,2,3,4,5],
+		"Frequency" : [0,3,2.5,2,1.5,1]
+		},
+		
+	"TotemBuff" : {
+		"Number" : [0,1,2,3,4,5],
+		"Frequency" : [0,3,2.5,2,1.5,1]
+		},
+		
+	"Grenade" : {
+		"Number" : [0,2,3,4,5,6],
+		"Damage" : [0,0.6,0.7,0.8,0.9,1],
+		"Frequency" : [0,4,3.5,3,2.5,2]
+		},
+		
+	"Molotov" : {
+		"Number" : [0,2,3,4,5,6],
+		"Damage" : [0,0.4,0.5,0.6,0.7,0.8],
+		"Frequency" : [0,4,3.5,3,2.5,2]
+		},
+		
+	"Neutron" : {
+		"Number" : [0,2,3,4,5,6],
+		"Damage" : [0,0.2,0.3,0.4,0.5,0.6],
+		"Frequency" : [0,4,3.5,3,2.5,2]
+		},
+		
+	"Missile" : {
+		"Number" : [0,2,4,6,8,10],
+		"Damage" : [0,0.8,0.9,1,1.1,1.2],
+		"Frequency" : [0,5,4.5,4,3.5,3]
+		},
+		
+	"Frost" : {
+		"Number" : [0,3,4,5,6,8],
+		"Frequency" : [0,4,3.5,3,2.5,2]
+		},
+		
+	"Exhaust" : {
+		"Number" : [0,5,6,7,8,10],
+		"Frequency" : [0,4,3.5,3,2.5,2]
+		},
+		
+	"Burn" : {
+		"Damage" : [0,0.2,0.3,0.4,0.5,0.6],
+		"Probability(%)" : [0,10,20,30,40,50]
+		}
+	
+
+},
+
+
+"ShopPrice" : {
+
+	"Barrier" : [5,20,40,65,95,130],
+	"ArcheryTarget" : [5,20,40,65,95,130],
+	"Barrel" : [5,20,40,65,95,130],
+	"Tesla" : [5,20,40,65,95,130],
+	
+	"Beartrap" : [10,30,55,85,120,160],
+	"Mine" : [10,30,55,85,120,160],
+	"Portal" : [10,30,55,85,120,160],
+	"Campfire" : [10,30,55,85,120,160],
+	"TotemFire" : [10,30,55,85,120,160],
+	"TotemHeal" : [10,30,55,85,120,160],
+	"TotemBuff" : [10,30,55,85,120,160],
+	
+	"Molotov" : [15,40,70,105,145,190],
+	"Neutron" : [15,40,70,105,145,190],
+	"Frost" : [15,40,70,105,145,190],
+	"Exhaust" : [15,40,70,105,145,190],
+	"Burn" : [15,40,70,105,145,190],
+	"Grenade" : [15,40,70,105,145,190],
+	"Missile" : [15,40,70,105,145,190],
+	
+	"HuntingDog" : [20,50,85,125,170,220],
+	"Turret" : [20,50,85,125,170,220],
+	"Drone" : [20,50,85,125,170,220],
+	"ScrollFire" : [20,50,85,125,170,220],
+	"ScrollThunder" : [20,50,85,125,170,220]
+
+},
+
+
+"PactList" : ["Fireball","Acid","Shadow","Chest"],
+
+
+"Pact" : {
+	
+	"Ghost" : ["Ghosts arise from zombie corpses",
+	"Des fantômes s'échappent des corps des zombies",
+	"Los fantasmas surgen de los cadáveres de los zombis",
+	"Os fantasmas surgem dos cadáveres dos zombies",
+	"Hantu muncul dari mayat zombie",
+	"Hayaletler zombi cesetlerinden doğar"],
+	
+	"Fireball" : ["Fireballs rain regularly falls on the ground",
+	"Une pluie de boules de feu s'abat régulièrement sur le sol",
+	"La lluvia de bolas de fuego cae regularmente sobre el suelo",
+	"A chuva de bolas de fogo cai regularmente no chão",
+	"Hujan bola api secara teratur jatuh ke tanah",
+	"Ateş topu yağmuru düzenli olarak yere düşer"],
+	
+	"Acid" : ["Acid pools regularly appear on the ground",
+	"Des flaques d'acide apparaissent régulièrement au sol",
+	"Los charcos de ácido aparecen regularmente en el suelo",
+	"Piscinas de ácido aparecem regularmente no chão",
+	"Genangan air asam secara teratur muncul di tanah",
+	"Zeminde düzenli olarak asit havuzları oluşuyor"],
+	
+	"Shadow" : ["Zombies now sneak out of the shadows",
+	"Les zombies apparaissent dissimulés dans l'ombre",
+	"Los zombis ahora salen sigilosamente de las sombras",
+	"Os zombies agora esgueiram-se das sombras",
+	"Zombie sekarang menyelinap keluar dari bayang-bayang",
+	"Zombiler artık gölgelerden gizlice çıkıyor"],
+	
+	"Chest" : ["Uncollected gems are destroyed at the end of waves",
+	"Les gemmes non récoltées sont détruites à la fin des vagues",
+	"Las gemas no recogidas se destruyen al final de las oleadas",
+	"As gemas não recolhidas são destruídas no final das vagas",
+	"Permata yang tidak terkumpul dihancurkan di akhir gelombang",
+	"Toplanmamış mücevherler dalgaların sonunda yok edilir"]
+	
+},
+
+	
+"RarityColor" : ["#969696","#009b00","#009bff","#ff00ff","#ff0000","#ffc800"],
+
+
+"CameraShake" : {
+
+	"Zombie" : 1,
+	"Barrel" : 2,
+	"Molotov" : 2,
+	"Mine" : 2,
+	"Grenade" : 2,
+	"Missile" : 3
+	
+},
+
+
+"RewardedText" : {
+
+	"Perks" : ["Choose all","Choisir tout","Elegir todo","Escolhe tudo","Pilih semua","Tümünü seçin"],
+	"Revive" : ["Revive","Revivre","Revivir","Reviver","Bangkit","Canlandırmak"],
+	"Pact" : ["Skip","Passer","Saltar","Saltar","Lewati","Atla"],
+	"HeroTry" : ["Try","Tester","Pruebe","Tentar","Coba","Deneyin"]
+
+},
+
+
+"HeroList" : ["Kamikaze","Hunter","Engineer","Pyromaniac","Shaman","Mage"],
+
+
+"Hero" : {
+
+	"HP" : 500,
+	"Firerate" : 0.4,
+	"Damage" : 200,
+	"Speed" : 80,
+	"Range" : 100
+		
+},
+
+
+"HeroPrice" : {
+
+	"Engineer" : 1,
+	"Pyromaniac" : 2,
+	"Shaman" : 3,
+	"Mage" : 3
+
+},
+
+"HeroName" : {
+
+	"Kamikaze" : "Ravan",
+	"Hunter" : "Aldrick",
+	"Engineer" : "Brisco",
+	"Pyromaniac" : "Bedric",
+	"Shaman" : "Dazul",
+	"Mage" : "Albus"
+
+},
+
+"ZombieList" : ["Normal","Helmet","Baseball","Shield","Tnt","Brain","Blood","Poison","Priest","Funeral","Skull","Ranger"],
+
+
+"ZombieBossList" : ["Giant","Reaper","Angel"],
+
+
+"ZombieIntroduction" : {
+
+	"Normal" : ["This basic zombie has no ability",
+	"Ce zombie basique n'a aucune capacité",
+	"Este zombi básico no tiene ninguna habilidad",
+	"Este zombie básico não tem nenhuma habilidade",
+	"Zombie dasar ini tidak memiliki kemampuan",
+	"Bu basit zombinin hiçbir yeteneği yok"],
+	
+	"Helmet" : ["This helmet zombie cannot take headshots",
+	"Ce zombie casque bloque les tirs dans la tête",
+	"Este zombi con casco no puede disparar a la cabeza",
+	"Este zombie com capacete não pode levar tiros na cabeça",
+	"Zombie helm ini tidak bisa menerima tembakan di kepala",
+	"Bu kasklı zombi kafasından vurulamaz"],
+	
+	"Poison" : ["This poison zombie can infect you",
+	"Ce zombie poison peut infecter le héro",
+	"Este zombi venenoso puede infectarte",
+	"Este zombie venenoso pode infetar-te",
+	"Zombie racun ini dapat menginfeksi Anda",
+	"Bu zehirli zombi size bulaşabilir"],
+	
+	"Priest" : ["This priest zombie heals other zombies around",
+	"Ce zombie prêtre soigne les zombies aux alentours",
+	"Este zombi sacerdote cura a otros zombis de alrededor",
+	"Este zombie padre cura os outros zombies à volta",
+	"Zombie pendeta ini menyembuhkan zombie lain di sekitarnya",
+	"Bu rahip zombi etraftaki diğer zombileri iyileştiriyor"],
+	
+	"Baseball" : ["This baseball zombie does more damage to obstacles",
+	"Ce zombie baseball fait plus de dégâts aux obstacles",
+	"Este zombi béisbol hace más daño a los obstáculos",
+	"Este zombie de basebol causa mais danos aos obstáculos",
+	"Zombie bisbol ini melakukan lebih banyak kerusakan pada rintangan",
+	"Bu beyzbol zombisi engellere daha fazla hasar veriyor"],
+	
+	"Brain" : ["This brain zombie is in bad shape but still alive",
+	"Ce zombie cerveau est en mauvais état mais toujours vivant",
+	"Este zombi cerebro está en mal estado pero sigue vivo",
+	"Este zombie com cérebro está em mau estado mas ainda está vivo",
+	"Zombie otak ini dalam kondisi buruk tetapi masih hidup",
+	"Bu beyin zombisi kötü durumda ama hala hayatta"],
+	
+	"Blood" : ["This bloody zombie sends out blood balls",
+	"Ce zombie sanglant envoie des boules de sang",
+	"Este zombie sangriento envía bolas de sangre",
+	"Este maldito zombie envia bolas de sangue",
+	"Zombie berdarah ini mengeluarkan bola-bola darah",
+	"Bu kanlı zombi kan topları gönderiyor"],
+	
+	"Shield" : ["This shield zombie takes reduced damage",
+	"Ce zombie bouclier réduit les dégâts qu'il subit",
+	"Este zombi con escudo recibe menos daño",
+	"Este zombie com escudo sofre dano reduzido",
+	"Zombie perisai ini menerima kerusakan yang berkurang",
+	"Bu kalkan zombi daha az hasar alır"],
+	
+	"Tnt" : ["This tnt zombie drops an explosive on the ground",
+	"Ce zombie tnt dépose des explosifs au sol",
+	"Este zombi tnt deja caer un explosivo al suelo",
+	"Este zombie tnt deixa cair um explosivo no chão",
+	"Zombie tnt ini menjatuhkan bahan peledak ke tanah",
+	"Bu tnt zombisi yere bir patlayıcı bırakıyor"],
+	
+	"Funeral" : ["This funeral zombie can get out of his coffin",
+	"Ce zombie funéraire peut ressortir de son cercueil",
+	"Este zombi funerario puede salir de su ataúd",
+	"Este zombie funerário consegue sair do seu caixão",
+	"Zombie pemakaman ini bisa keluar dari peti matinya",
+	"Bu cenaze zombisi tabutundan çıkabilir"],
+	
+	"Skull" : ["This skeleton zombie throws bones like boomerangs",
+	"Ce zombie squelette lance des os comme des boomerangs",
+	"Este esqueleto zombi lanza huesos como bumeranes",
+	"Este esqueleto zombie atira ossos como bumerangues",
+	"Zombie kerangka ini melempar tulang seperti bumerang",
+	"Bu iskelet zombi kemikleri bumerang gibi fırlatıyor"],
+	
+	"Ranger" : ["This ranger zombie shoots arrows with his crossbow",
+	"Ce zombie archer tire des flèches avec son arbalète",
+	"Este ranger zombie dispara flechas con su ballesta",
+	"Este zombie guarda-florestal dispara setas com a sua besta",
+	"Zombie penjaga hutan ini menembakkan panah dengan panahnya",
+	"Bu korucu zombi arbaletiyle ok atıyor"],
+	
+	"Giant" : ["This giant zombie drops rocks from the sky",
+	"Ce zombie géant fait tomber des rochers du ciel",
+	"Este zombi gigante deja caer rocas del cielo",
+	"Este zombie gigante deixa cair pedras do céu",
+	"Zombie raksasa ini menjatuhkan batu dari langit",
+	"Bu dev zombi gökten taş yağdırıyor"],
+	
+	"Reaper" : ["This reaper zombie unleashes hurricanes from hell",
+	"Ce zombie faucheur déchaîne des ouragans des enfers",
+	"Este zombi segador desata huracanes del infierno",
+	"Este zombie ceifeiro liberta furacões do inferno",
+	"Zombie penuai ini melepaskan angin topan dari neraka",
+	"Bu Azrail zombi cehennemden gelen kasırgaları serbest bırakıyor"],
+	
+	"Angel" : ["This zombie angel deploys powerful light prisms",
+	"Ce zombie ange invoque de puissants prismes de lumière",
+	"Este zombi ángel despliega potentes prismas de luz",
+	"Este anjo zombie lança poderosos prismas de luz",
+	"Malaikat zombie ini menyebarkan prisma cahaya yang kuat",
+	"Bu zombi melek güçlü ışık prizmaları kullanıyor"]
+},
+
+
+"ZombieWave" : {
+
+	"Giant" : [
+		{"Wave" : [1,1], "Zombie" : ["Normal"]},
+		{"Wave" : [2,3], "Zombie" : ["Normal","Helmet"]},
+		{"Wave" : [4,10], "Zombie" : ["Normal","Helmet","Ranger"]},
+		{"Wave" : [11,15], "Zombie" : ["Normal","Helmet","Ranger","Tnt"]}
+		],
+	
+	"Reaper" : [
+		{"Wave" : [1,1], "Zombie" : ["Brain"]},
+		{"Wave" : [2,3], "Zombie" : ["Brain","Poison"]},
+		{"Wave" : [4,10], "Zombie" : ["Brain","Poison","Blood"]},
+		{"Wave" : [11,15], "Zombie" : ["Brain","Poison","Skull"]}
+		],
+	
+	"Angel" : [
+		{"Wave" : [1,1], "Zombie" : ["Normal"]},
+		{"Wave" : [2,3], "Zombie" : ["Normal","Priest"]},
+		{"Wave" : [4,10], "Zombie" : ["Normal","Priest","Funeral"]},
+		{"Wave" : [11,15], "Zombie" : ["Normal","Priest","Funeral","Skull"]}
+		]
+		
+},
+
+
+"Zombie" : {
+		
+		"HP" : 500,
+		"Damage" : 5,
+		"Hitrate" : 0.2,
+		"Speed" : [30,40]
+},
+
+
+"ZombieBoss" : {
+		
+	"General" : {
+		"HP" : 5000,
+		"Damage" : 10,
+		"Hitrate" : 0.2,
+		"Skillrate" : 5,
+		"Speed" : 30
+		},
+	
+	"Giant" : {
+		"RockNumber" : [80,90,100],
+		"RockDamage" : 50,
+		"ZombieNumber" : 1,
+		"Animation" : 2
+		},
+		
+	"Reaper" : {
+		"TornadoNumber" : [10,12,15],
+		"TornadoDamage" : 10,
+		"TornadoSpeed" : [100,200],
+		"TornadoHitrate" : 0.2,
+		"ZombieNumber" : 1,
+		"Animation" : 2
+		},
+		
+	"Angel" : {
+		"PrismNumber" : [50,60,70],
+		"HaloDamage" : 50,
+		"ZombieNumber" : 1,
+		"Animation" : 1
+		}
+},
+
+
+"ModeList" : ["Easy","Normal","Hard"],
+
+
+"ModeColor" : ["#12d4ff","#ddf000","#ea0000"],
+
+
+"Mode" : {
+
+	"1" : ["Zombie scaling","Puissance des zombies","Escala de zombis","Escalonamento dos zombies","Penskalaan zombie","Zombi ölçeklendirme"],
+	"2" : ["Wave duration","Durée des vagues","Duración de la onda","Duração da onda","Durasi gelombang","Dalga süresi"],
+	"3" : ["Event frequency","Fréquence des pactes","Frecuencia de eventos","Frequência do evento","Frekuensi acara","Etkinlik sıklığı"],
+	"4" : ["Lootbox droprate","Taux de butin","Tasa de botín","Taxa de saque","Tingkat penjarahan","Lootbox düşüş oranı"],
+	"5" : ["Endgame reward","Récompense de fin","Recompensa final","Recompensa final","Hadiah akhir","Son ödül"]
+},
+
+
+"RecapSummaryList" : [
+
+["Mode","Wave (current)","Wave (best)","Bullets fired","Zombie killed","Zombie burned","Headshots","Gems collected","Medals earned"],
+
+["Mode","Vague (actuelle)","Vague (meilleure)","Balles tirées","Zombies tués","Zombies brûlés","Tirs dans la tête","Gemmes collectées","Médailles gagnées"],
+
+["Modo","Onda (actual)","Onda (mejor)","Balas disparadas","Zombi muerto","Zombi quemado","Disparos a la cabeza","Gemas recogidas","Medallas obtenidas"],
+
+["Modo","Onda (atual)","Onda (melhor)","Balas disparadas","Zombie morto","Zombie queimado","Tiros na cabeça","Gemas recolhidas","Medalhas conquistadas"],
+
+["Mode","Gelombang (saat ini)","Gelombang (terbaik)","Peluru ditembakkan","Zombie terbunuh","Zombie terbakar","Tembakan di kepala","Permata diperoleh","Medali yang diperoleh"],
+
+["Mod","Dalga (akım)","Dalga (en iyi)","Atılan mermiler","Zombi öldürüldü","Zombi yandı","Vesikalıklar","Toplanan mücevherler","Kazanılan madalyalar"]],
+
+	
+"ZombieScale" : {
+
+	"WaveNumber" : [15,15,15],
+	"WaveDuration" : [20,25,30],
+	"WaveScaling" : [0.02,0.03,0.04],
+	"HP" : [0.1,0.15,0.2],
+	"Damage" : [0.1,0.15,0.2],
+	"Pact" : [5,4,3],
+	"Lootbox" : [1,0.75,0.5],
+	"Reward" : [1,2,3]
+				
+},
+
+"MusicList" : ["Music1","Music2","Music3","Music4","Music5"],
+
+
+"Sound" : {
+
+	"ZombieIntroduction" : -10,
+	"ZombieDeath" : 0,
+	"ZombieBossDeath" : 0,
+	"ZombieHeal" : -30,
+	"ZombieReaper1" : 0,
+	"ZombieReaper2" : -10,
+	"ZombieGiant2" : -10,
+	"ZombieGiantRock" : -15,
+	"ZombieAngel1" : 0,
+	"ZombieAngel2" : 0,
+	"ZombieAngelHalo" : -20,
+	"ZombieGroundHit" : 0,
+	"ZombieBlood" : 0,
+	"ZombieRanger" : -10,
+	"ZombieSkull" : -5,
+	"ZombieHit" : -20,
+	"HeroStep" : 0,
+	"BulletKamikaze" : -5,
+	"BulletDrone" : -30,
+	"BulletTurret" : -30,
+	"BulletHunter" : -15,
+	"BulletEngineer" : -20,
+	"BulletPyromaniac" : -15,
+	"BulletShaman" : -10,
+	"BulletMage" : -10,
+	"HeroThrow" : -20,
+	"HeroBuff" : -5,
+	"HeroHit" : -20,
+	"HeroHeal" : -10,
+	"HeroDeath" : -10,
+	"HeroRevive" : -10,
+	"HeroGrenade" : 0,
+	"HeroMolotov" : 0,
+	"HeroBeartrap" : -15,
+	"HeroHuntingDog" : -20,
+	"HeroTotemFire" : -15,
+	"HeroTotemHeal" : -15,
+	"HeroTotemBuff" : -15,
+	"HeroExhaust" : -10,
+	"HeroScrollFire" : -15,
+	"HeroScrollThunder" : -15,
+	"HeroTesla" : -20,
+	"HeroHeadshot" : -5,
+	"HeroCritical" : -10,
+	"ButtonClicked" : -10,
+	"ButtonHold" : -20,
+	"ArrowClicked" : -10,
+	"ItemSpawn" : -25,
+	"TargetHit" : -25,
+	"ShopPurchased" : -10,
+	"ShopOpened" : 0,
+	"PerksPurchased" : -10,
+	"Music1" : -20,
+	"Music2" : -20,
+	"Music3" : -20,
+	"Music4" : -20,
+	"Music5" : -20,
+	"MusicBoss" : -20,
+	"GemCollected" : -20,
+	"MedalCollected" : -10,
+	"PortalSpawn" : -10,
+	"PortalLeave" : -10,
+	"PortalEnter" : -20,
+	"PactFireball" : -10,
+	"PactPoison" : 0,
+	"ObjectBuff" : -10,
+	"LevelVictory" : -10,
+	"LevelDefeat" : -10,
+	"ElectricEffect" : -20,
+	"IceEffect" : -10,
+	"AspiratedEffect" : -10
+
+},
+
+
+"Language" : {
+
+	"en" : 0,
+	"fr" : 1,
+	"es" : 2,
+	"pt" : 3,
+	"id" : 4,
+	"tr" : 5
+	
+},
+
+
+"Translation" : {
+
+	"HUD_ProgressBarText" : ["Wave","Vague","Onda","Onda","Gelombang","Dalga"],
+	"HUD_ControlRule" : ["Use WASD or arrows","Utilise WASD ou les flèches","Usa WASD o las flechas","Utilizar WASD ou setas","Gunakan WASD atau panah","WASD veya okları kullanın"],
+	"HUD_ControlRuleMobile" : ["Touch for thumbpad","Appuie pour le joystick","Toque para el thumbpad","Toque no teclado","Sentuh untuk thumbpad","Parmak yüzeyi için dokunma"],
+	"HUD_ControlRulePortal" : ["Enter the portal","Entre dans le portail","Entrar en el portal","Entrar no portal","Masuk ke portal","Portala giriş yapın"],
+	"HUD_RetryButtonText" : ["Retry","Rejouer","Reproducir","Repetição","Coba lagi","Yeniden Dene"],
+	"HUD_ReplayButtonText" : ["Replay","Rejouer","Reproducir","Repetição","Putar ulang","Tekrar Oynat"],
+	"HUD_ResumeButtonText" : ["Resume","Reprendre","Reanudar","Retomar","Melanjutkan","Özgeçmiş"],
+	"HUD_PerksChoiceButtonText" : ["Choose","Choisir","Elija","Selecionar","Memilih","Seçin"],
+	"HUD_PerksChoosen" : ["Chosen","Choisi","Elegir","Escolher","Dipilih","Seçiniz"],
+	"HUD_ShopBuyButtonText" : ["Buy","Acheter","Comprar","Comprar","Membeli","Satın Al"],
+	"HUD_ShopBought" : ["Bought","Acheté","Comprado","Comprado","Membeli","Satın aldım"],
+	"HUD_ShopRefreshButtonText" : ["Refresh","Actualiser","Actualizar","Atualizar","Menyegarkan","Yenile"],
+	"HUD_CloseButtonText" : ["CLOSE","FERMER","CERRAR","FECHAR","TUTUP","KAPAT"],
+	"HUD_ModeChoiceButtonText" : ["Choose","Choisir","Elija","Selecionar","Memilih","Seçin"],
+	"HUD_ModeChoosen" : ["Chosen","Choisi","Elegir","Escolher","Dipilih","Seçiniz"],
+	"HUD_PactChoiceButtonText" : ["Choose","Choisir","Elija","Selecionar","Memilih","Seçin"],
+	"HUD_PactChoosen" : ["Chosen","Choisi","Elegir","Escolher","Dipilih","Seçiniz"],
+	"HUD_HeroChoiceButtonText" : ["Choose","Choisir","Elija","Selecionar","Memilih","Seçin"],
+	"HUD_HeroChoosen" : ["Chosen","Choisi","Elegir","Escolher","Dipilih","Seçiniz"],
+	"HUD_ModeTextEasy" : ["Easy","Facile","Fácil","Fácil","Mudah","Kolay"],
+	"HUD_ModeTextNormal" : ["Normal","Normal","Normal","Normal","Normal","Normal"],
+	"HUD_ModeTextHard" : ["Hard","Difficile","Difícil","Difícil","Sulit","Sert"],
+	"HUD_PerksRuleText" : 
+	["Choose 1 between all. If you watch a [color=#ffc825]rewarded[/color], you get all 3 at once!",
+	"Choisis-en 1 parmi les 3. Si tu regardes une [color=#ffc825]pub[/color], tu obtiens les 3!",
+	"Elige 1 entre todos. Si ves un [color=#ffc825]anuncio[/color], ¡consigues los 3 a la vez!",
+	"Escolhe 1 entre todos. Se vires um [color=#ffc825]anúncio[/color], recebes os 3 de uma vez!",
+	"Pilih 1 di antara semuanya. Jika Anda menonton [color=#ffc825]iklan[/color], Anda akan mendapatkan ketiga-tiganya sekaligus!",
+	"Hepsi arasından 1 tanesini seçin. Eğer bir [color=#ffc825]reklam[/color] izlerseniz, 3'ünü birden alırsınız!"],
+	"HUD_PactRuleText" : 
+	["Choose 1 between all. If you watch a [color=#ffc825]rewarded[/color], you can skip the event!",
+	"Choisis-en 1 parmi les 3. Si tu regardes une [color=#ffc825]pub[/color], tu évites de choisir!",
+	"Elige 1 entre todos. Si ves un [color=#ffc825]anuncio[/color], ¡puedes saltarte el evento!",
+	"Escolhe 1 entre todos. Se vires um [color=#ffc825]anúncio[/color], podes saltar o evento!",
+	"Pilih 1 di antara semua. Jika Anda menonton [color=#ffc825]iklan[/color], Anda dapat melewatkan acara!",
+	"Hepsi arasından 1'i seçin. Eğer bir [color=#ffc825]reklam[/color] izlerseniz, etkinliği atlayabilirsiniz!"],
+	"HUD_AdblockRuleText" :
+	["The ad failed to load. If you use an [color=#ff0000]adblocker[/color], please disable it to get the [color=#00ff00]reward[/color]!",
+	"La pub n'a pas pu charger. Si tu utilises un [color=#ff0000]adblocker[/color], merci de le désactiver pour obtenir la [color=#00ff00]récompense[/color]!",
+	"El anuncio no se ha podido cargar. Si utiliza un [color=#ff0000]bloqueador de anuncios[/color], desactívelo para obtener la [color=#00ff00]recompensa[/color]!",
+	"O anúncio não foi carregado. Se utiliza um [color=#ff0000]bloqueador de anúncios[/color], desactive-o para receber a [color=#00ff00]recompensa[/color]!",
+	"Iklan gagal dimuat. Jika Anda menggunakan [color=#ff0000]pemblokir iklan[/color], harap nonaktifkan untuk mendapatkan [color=#00ff00]hadiah[/color]!",
+	"Reklam yüklenemedi. Bir [color=#ff0000]reklam engelleyici[/color] kullanıyorsanız, [color=#00ff00]ödülü[/color] almak için lütfen devre dışı bırakın!"],
+	"PERKS" : ["PERKS","BONUS","PERMISOS","VANTAGENS","BONUSNYA","BONUSLAR"],
+	"SHOP" : ["SHOP","MAGASIN","TIENDA","LOJA","BELANJA","ALIŞVERİŞ"],
+	"PAUSE" : ["PAUSE","PAUSE","PAUSA","PAUSA","JEDA","DURAKLAT"],
+	"LOOTS" : ["LOOTS","BUTIN","LOTES","LOOTES","JARAHAN","YAĞMA"],
+	"EVENT" : ["EVENT","PACTE","EVENTO","EVENTO","ACARA","ETKİNLİK"],
+	"HERO" : ["HERO","HERO","HEROE","HEROI","PAHLAWAN","KAHRAMAN"],
+	"MODE" : ["MODE","MODE","MODO","MODO","MODE","MOD"],
+	"SUMMARY" : ["SUMMARY","RESUME","RESUMEN","RESUMO","IKHTISAR","ÖZET"],
+	"DEFEAT" : ["DEFEAT","DEFAITE","DERROTA","DERROTA","KEKALAHAN","YENILGI"],
+	"VICTORY" : ["VICTORY","VICTOIRE","VICTORIA","VITÓRIA","KEMENANGAN","ZAFER"],
+	"HP" : ["HP","Vie","Salud","Saúde","Kesehatan","Sağlık"],
+	"Damage" : ["Damage","Degats","Daños","Dano","Kerusakan","Hasar"],
+	"Number" : ["Number","Nombre","Número","Número","Jumlah","Sayı"],
+	"Firerate" : ["Firerate","Vitesse de tir","Velocidad de disparo","Taxa de fogo","Kecepatan pemotretan","Çekim hızı"],
+	"Hitrate" : ["Hitrate","Vitesse d'attaque'","Velocidad de ataque","Velocidade de ataque","Kecepatan serangan","Saldırı hızı"],
+	"Range" : ["Range","Portee","Alcance","Alcance","Jangkauan","Menzil"],
+	"Reload" : ["Reload","Recharge","Recarga","Recarga","Muat Ulang","Yeniden Yükle"],
+	"Heal(%)" : ["Heal(%)","Soin(%)","Cura(%)","Curar(%)","Perawatan(%)","Bakım(%)"],
+	"Frequency" : ["Frequency","Frequence","Frecuencia","Frequência","Frekuensi","Frekans"],
+	"Probability(%)" : ["Probability(%)","Probabilite(%)","Probabilidad(%)","Probabilidade(%)","Probabilitas(%)","Olasılık(%)"],
+	"Health" : ["Health","Vie","Salud","Saúde","Kesehatan","Sağlık"],
+	"Critical" : ["Critical","Critique","Crítico","Crítico","Kritis","Kritik"],
+	"Headshot" : ["Headshot","Tir dans la tete","Disparo a la cabeza","Tiro na cabeça","Tembakan di kepala","Kafa vuruşu"],
+	"Multishot" : ["Multishot","Tir multiple","Tiro múltiple","Disparo múltiplo","Beberapa pemotretan","Çoklu çekim"],
+	"Piercing" : ["Piercing","Penetration","Perforación","Perfuração","Menusuk","Penetrasyon"],
+	"Bounce" : ["Bounce","Rebond","Rebote","Ressalto","Memantul","Sıçrama"],
+	"Electric" : ["Electric","Electrique","Eléctrico","Elétrico","Listrik","Elektrik"],
+	"Gem" : ["Gem","Gemme","Gema","Gema","Permata","Mücevher"],
+	"Burn" : ["Burn","Brulure","Quemar","Queimar","Membakar","Yanmak"],
+	"Regen" : ["Regen","Regeneration","Regeneración","Regeneração","Regenerasi","Rejenerasyon"],
+	"Lifesteal" : ["Lifesteal","Vol de vie","Robo de vida","Roubo de Vida","Pencurian nyawa","Hayat çalmak"],
+	"ModeWaveText" : ["waves","vagues","ondas","ondas","gelombang","dalgalar"],
+	"ModeRewardText" : ["medal","médaille","medalla","medalha","medali","madalya"],
+	"Stunned" : ["Stunned","Etourdi","Noqueado","Nocauteado","Pingsan","Bayıltıldı"]
+	
+}
+	
+
+	
+}
