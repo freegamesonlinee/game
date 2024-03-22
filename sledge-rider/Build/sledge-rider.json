@@ -1,0 +1,16 @@
+{
+"companyName": "1games.io",
+"productName": "Sledge Rider",
+"productVersion": "1.0",
+"dataUrl": "sledge-rider.data.unityweb",
+"wasmCodeUrl": "sledge-rider.wasm.code.unityweb",
+"wasmFrameworkUrl": "sledge-rider.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.24f1"
+}
